@@ -7,6 +7,10 @@ A git autocommit script that can boost up your contributions
 - SSH keys for pushing without prompting the username and password
 > https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278
 
+## How it works:
+
+The script will simply create a .txt file and append random numbers to it, a git commit and push will occur each time
+
 ## Istructions:
 
 1. Clone this repo
