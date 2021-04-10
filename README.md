@@ -4,6 +4,8 @@ A git autocommit script that can boost up your contributions
 ## Requiriments:
 - Linux
 - Python3
+- SSH keys for pushing without prompting the username and password
+> https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278
 
 ## Istructions:
 
@@ -25,3 +27,13 @@ python3 main.py
 ```
 
 5. Enjoy
+
+## NOTE
+
+* This has been done just for educational purpose, lots of commits does not necessary make you a good programmer
+
+* I am not using it, all of my commits are legit
+
+* Do not abuse this
+
+* Keep in mind that the file .txt that gets modified each time will grow up in size, clear it after some time to avoid filling up Github servers
