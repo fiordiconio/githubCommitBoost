@@ -6,13 +6,14 @@ import random
 import os
 import threading
 
-NUM_OF_COMMITS = 100
+NUM_OF_COMMITS = 1
 
 def commitCreation():
 
     file = open("randomIsBetter.txt", "a")
 
-    file.write(str(random.randint(1, 100000)) + '\n')
+    num = str(random.randint(1, 100000))
+    file.write(num + '\n')
 
     os.system("git add *")
 
