@@ -20,7 +20,7 @@ git clone https://github.com/fiordiconio/githubCommitBoost
 
 2. Copy commitGenerator.py inside the repository you want commit for
 
-3. Modifiy constant value inside of commitGenerator.py
+3. Change the value of the costant inside of commitGenerator.py
 ```
 NUM_OF_COMMITS = # whatever number of commits you want
 ```
@@ -36,7 +36,7 @@ python3 main.py
 
 * This has been done just for educational purpose, lots of commits does not necessary make you a good programmer
 
-* I am not using it, all of my commits are legit
+* I am not using it all of my commits are legit
 
 * Do not abuse this
 
