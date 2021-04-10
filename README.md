@@ -11,7 +11,7 @@ A git autocommit script that can boost up your contributions
 
 The script will simply create a .txt file and append random numbers to it, a git commit and push will occur each time
 
-## Istructions:
+## Instructions:
 
 1. Clone this repo
 ```
