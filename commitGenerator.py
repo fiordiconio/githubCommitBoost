@@ -8,18 +8,15 @@ import threading
 
 NUM_OF_COMMITS = 100
 
-def commitCreatoin():
+def commitCreation():
 
     file = open("randomIsBetter.txt", "a")
 
-    num = str(random.randint(1, 100000))
-    file.write(num + '\n')
+    file.write(str(random.randint(1, 100000)) + '\n')
 
     os.system("git add *")
 
-    commit = f'git commit -m "{num}"'
-
-    os.system(commit)
+    os.system(f'git commit -m "{num}"')
 
     os.system("git push origin main")
     file.close()
@@ -29,7 +26,7 @@ def main():
     threads = []
 
     for i in range(NUM_OF_COMMITS):
-        x = threading.Thread(target=commitCreatoin)
+        x = threading.Thread(target=commitCreation)
         x.daemon = True
         threads.append(x)
 
