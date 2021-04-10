@@ -1,7 +1,7 @@
 # Github Commit Boost
 A git autocommit script that can boost up your contributions
 
-## Requiriments:
+## Requirements:
 - Linux
 - Python3
 - SSH keys for pushing without prompting the username and password
