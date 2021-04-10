@@ -41,3 +41,4 @@ python3 main.py
 * Do not abuse this
 
 * Keep in mind that the file .txt that gets modified each time will grow up in size, clear it after some time to avoid filling up Github servers
+
